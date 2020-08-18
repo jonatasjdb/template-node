@@ -1,0 +1,27 @@
+{
+
+"type": "banco",
+
+"host": "ip",
+
+"port": 5432, //(postgres)
+
+"username": "login",
+
+"password": "senha",
+
+"database": "BD",
+
+"migrations": [
+
+"./src/database/migrations/*.ts" //⇒ caminho das migrations
+
+],
+
+"cli": {
+
+"migrationsDir": "./src/database/migrations" //⇒ mesmo caminho
+
+}
+
+}
